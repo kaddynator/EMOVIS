@@ -1,0 +1,13 @@
+name: emotion
+title: emotion
+username:
+account: proudme
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 357091
+bundleId: 1453051
+url: https://proudme.shinyapps.io/emotion/
+when: 1530131099.81456
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: TESTING.R|testing2.R
