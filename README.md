@@ -6,10 +6,9 @@ The file project.Rproj is the project file that needs to be loaded to the R stud
 
 The files inside the folder "Emotion" contain the codes for the visualization tool.  
 
-EMOVIS is built for a sample dataset of the [
-](https://en.wikipedia.org/wiki/Unite_the_Right_rally) event. 
+EMOVIS is built for a sample dataset of the [Charlottesville Protest Event 2017](https://en.wikipedia.org/wiki/Unite_the_Right_rally) event. The Twitter Social Media Data is collected for this  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDY2NDk5LDM5NTQzMDU2MCwyMTE4Nz
-gyOTA5LC0xNDEwNTkyMDQzLC01NDE2MjU3NzUsNDk3MDU3NzQx
-XX0=
+eyJoaXN0b3J5IjpbMTI0NDgxMDE3NiwzOTU0MzA1NjAsMjExOD
+c4MjkwOSwtMTQxMDU5MjA0MywtNTQxNjI1Nzc1LDQ5NzA1Nzc0
+MV19
 -->
