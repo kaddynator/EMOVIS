@@ -28,12 +28,12 @@ This Dataset contains emotion details with a precision of 1 - Hour.
 4. [Daily Data](https://github.com/kaddynator/EMOVIS/blob/master/emotion/data/shiny_data.csv) :
 This Dataset contains emotion details with a precision of 1- Day. 
 
-5. 
- 
-The NEWS descriptions data are collected from trusted internet sources. The sources are mentioned as one of the column in the dataset.  
+The NEWS descriptions data are collected from trusted internet sources. The sources are mentioned as one of the column in the dataset. 
+
+In  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk1MjMxNywtMTk1ODY2Nzc1NSwxNz
-IyNTE4Nzg3LC0xODYwNTg5NDc4LC0xNzAzMTg0NzAzLDEyNDQ4
-MTAxNzYsMzk1NDMwNTYwLDIxMTg3ODI5MDksLTE0MTA1OTIwND
-MsLTU0MTYyNTc3NSw0OTcwNTc3NDFdfQ==
+eyJoaXN0b3J5IjpbNzA1MTQ5MjcsLTE5NTg2Njc3NTUsMTcyMj
+UxODc4NywtMTg2MDU4OTQ3OCwtMTcwMzE4NDcwMywxMjQ0ODEw
+MTc2LDM5NTQzMDU2MCwyMTE4NzgyOTA5LC0xNDEwNTkyMDQzLC
+01NDE2MjU3NzUsNDk3MDU3NzQxXX0=
 -->
