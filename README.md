@@ -30,11 +30,12 @@ This Dataset contains emotion details with a precision of 1- Day.
 
 The NEWS descriptions data are collected from trusted internet sources. The sources are mentioned as one of the column in the dataset. 
 
+## Note : 
 A developer who has interest to replicate this tool is adviced to replace the dataset in the [Data Folder](https://github.com/kaddynator/EMOVIS/tree/master/emotion/data)  with the corresponding dataset of interest in the same format. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzY1MzA4NCwtMTAxNDQxNTUxNiwtMT
-k1ODY2Nzc1NSwxNzIyNTE4Nzg3LC0xODYwNTg5NDc4LC0xNzAz
-MTg0NzAzLDEyNDQ4MTAxNzYsMzk1NDMwNTYwLDIxMTg3ODI5MD
-ksLTE0MTA1OTIwNDMsLTU0MTYyNTc3NSw0OTcwNTc3NDFdfQ==
-
+eyJoaXN0b3J5IjpbMTQxODc5NTkzNCwtMTg3NjUzMDg0LC0xMD
+E0NDE1NTE2LC0xOTU4NjY3NzU1LDE3MjI1MTg3ODcsLTE4NjA1
+ODk0NzgsLTE3MDMxODQ3MDMsMTI0NDgxMDE3NiwzOTU0MzA1Nj
+AsMjExODc4MjkwOSwtMTQxMDU5MjA0MywtNTQxNjI1Nzc1LDQ5
+NzA1Nzc0MV19
 -->
