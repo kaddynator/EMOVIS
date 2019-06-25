@@ -1,4 +1,4 @@
-# libraries
+# libraries required
 library(tidyverse); library(shiny); library(dygraphs); library(xts); library(shinythemes);library(readr)
 library(car);library(prophet); library(dplyr); library(forecast); library(reshape); library(anytime);library("ggpubr");
 
