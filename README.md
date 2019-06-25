@@ -16,9 +16,9 @@ Some of the sample hastags used are as follows:
 
 # Adding New Data Source:
 
-In order to add new dataset to theto the EMOVIS 
+In order to add new dataset into the EMOVIS tool, the files inside [DATA](https://github.com/kaddynator/EMOVIS/tree/master/emotion) needs to be altered to your specific use case. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMDg5NzI3NywxNzIyNTE4Nzg3LC0xOD
+eyJoaXN0b3J5IjpbMTk2OTg1NDIxMSwxNzIyNTE4Nzg3LC0xOD
 YwNTg5NDc4LC0xNzAzMTg0NzAzLDEyNDQ4MTAxNzYsMzk1NDMw
 NTYwLDIxMTg3ODI5MDksLTE0MTA1OTIwNDMsLTU0MTYyNTc3NS
 w0OTcwNTc3NDFdfQ==
