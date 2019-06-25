@@ -17,9 +17,12 @@ Some of the sample hastags used are as follows:
 # Adding New Data Source:
 
 In order to add new dataset into the EMOVIS tool, the files inside [DATA](https://github.com/kaddynator/EMOVIS/tree/master/emotion) needs to be altered to your specific use case. 
+
+1. The file [Annotation Year](https://github.com/kaddynator/EMOVIS/blob/master/emotion/data/annotations_year.csv)  contians the datatable descriptions that appear for the whole protest timeline. 
+The d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTg1NDIxMSwxNzIyNTE4Nzg3LC0xOD
-YwNTg5NDc4LC0xNzAzMTg0NzAzLDEyNDQ4MTAxNzYsMzk1NDMw
-NTYwLDIxMTg3ODI5MDksLTE0MTA1OTIwNDMsLTU0MTYyNTc3NS
-w0OTcwNTc3NDFdfQ==
+eyJoaXN0b3J5IjpbLTE0NzU5NDM1NDksMTcyMjUxODc4NywtMT
+g2MDU4OTQ3OCwtMTcwMzE4NDcwMywxMjQ0ODEwMTc2LDM5NTQz
+MDU2MCwyMTE4NzgyOTA5LC0xNDEwNTkyMDQzLC01NDE2MjU3Nz
+UsNDk3MDU3NzQxXX0=
 -->
