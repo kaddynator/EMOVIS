@@ -12,6 +12,9 @@ EMOVIS is built for a sample dataset of the [Charlottesville Protest Event 2017]
 Some of the sample hastags used are as follows: 
 
 ## #Add image of the hashtags
+
+
+[https://drive.google.com/uc?export=view&id=](https://drive.google.com/uc?export=view&id=)**<FILE_ID>**
 https://drive.google.com/file/d/11bIlLN3l1OR-kuq0xrK1b12594eygd3p/view?usp=sharing
 
 # Adding New Data Source:
@@ -33,7 +36,7 @@ The NEWS descriptions data are collected from trusted internet sources. The sour
 ## Note  
 A developer who has interest to replicate this tool is adviced to replace the dataset in the [Data Folder](https://github.com/kaddynator/EMOVIS/tree/master/emotion/data)  with the corresponding dataset of interest in the same format only. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODA5MzkyMSwtMjE0MTY2MzI0MCwtMT
+eyJoaXN0b3J5IjpbMTU5ODQzODMyNCwtMjE0MTY2MzI0MCwtMT
 g3NjUzMDg0LC0xMDE0NDE1NTE2LC0xOTU4NjY3NzU1LDE3MjI1
 MTg3ODcsLTE4NjA1ODk0NzgsLTE3MDMxODQ3MDMsMTI0NDgxMD
 E3NiwzOTU0MzA1NjAsMjExODc4MjkwOSwtMTQxMDU5MjA0Mywt
