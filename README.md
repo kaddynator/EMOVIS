@@ -9,15 +9,8 @@ The files inside the folder "emotion" contain the codes for the visualization to
 # Data Source:
 EMOVIS is built for a sample dataset of the [Charlottesville Protest Event 2017](https://en.wikipedia.org/wiki/Unite_the_Right_rally) event.  The Twitter Social Media Data related to this event is collected based on the Hashtags related to this event which are manually selected. 
 
-Some of the sample hastags used are as follows: 
+A sample of hastags conditions used to extract data from the Twitter is as follows :
 
-## #Add image of the hashtags
-
-
-[adsf](https://drive.google.com/uc?export=view&id=11bIlLN3l1OR-kuq0xrK1b12594eygd3p)
-
-
-[https://drive.google.com/uc?export=view&id=](https://drive.google.com/uc?export=view&id=)**<FILE_ID>**
 
 ![image](https://drive.google.com/uc?export=view&id=11bIlLN3l1OR-kuq0xrK1b12594eygd3p )
 
@@ -41,9 +34,9 @@ The NEWS descriptions data are collected from trusted internet sources. The sour
 ## Note  
 A developer who has interest to replicate this tool is adviced to replace the dataset in the [Data Folder](https://github.com/kaddynator/EMOVIS/tree/master/emotion/data)  with the corresponding dataset of interest in the same format only. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTcxODQ0OSwtMjE0MTY2MzI0MCwtMT
-g3NjUzMDg0LC0xMDE0NDE1NTE2LC0xOTU4NjY3NzU1LDE3MjI1
-MTg3ODcsLTE4NjA1ODk0NzgsLTE3MDMxODQ3MDMsMTI0NDgxMD
-E3NiwzOTU0MzA1NjAsMjExODc4MjkwOSwtMTQxMDU5MjA0Mywt
-NTQxNjI1Nzc1LDQ5NzA1Nzc0MV19
+eyJoaXN0b3J5IjpbMjkxMTE2NjQ1LC0yMTQxNjYzMjQwLC0xOD
+c2NTMwODQsLTEwMTQ0MTU1MTYsLTE5NTg2Njc3NTUsMTcyMjUx
+ODc4NywtMTg2MDU4OTQ3OCwtMTcwMzE4NDcwMywxMjQ0ODEwMT
+c2LDM5NTQzMDU2MCwyMTE4NzgyOTA5LC0xNDEwNTkyMDQzLC01
+NDE2MjU3NzUsNDk3MDU3NzQxXX0=
 -->
