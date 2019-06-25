@@ -1,0 +1,588 @@
+
+                       Welcome to T rain
+                                  E nergy and
+                                  D ynamics
+                                  S imulator
+                         VERSION: TEDS Version: 2.0, Service Pack: 0, Build:0
+
+Train Energy and Dynamics Simulator (TEDS) Version 2.0.This simulation tool is disseminated under the sponsorship of the Department of Transportation inthe interest of information exchange. The United States Government assumes no liability for its contents or usethereof. Any opinions, findings and conclusions, or recommendations expressed in this material do not necessarilyreflect the views or policies of the United States Government, nor does mention of trade names, commercial products,or organizations imply endorsement by the United States Government. The United States Government assumes no liabilityfor the content or use of the material contained in this document. Users experiencing problems with this programshould report them to the FRA Program Manager for Rolling Stock Equipment and Components at FRA-RSEC.PMO@dot.gov.
+Licensed to: Johnny Yu - Siemens
+ 
+ Command line used to launch solver: "'D:\TEDS\Projects\CB_2_friday\1Loc10Empty_cb_40_slope\1Loc10Empty_cb_40_slope_1.PROJECT' -W1,m20"
+ Opened project file "D:\TEDS\PROJECTS\CB_2_FRIDAY\1LOC10EMPTY_CB_40_SLOPE\1LOC10EMPTY_CB_40_SLOPE_1.PROJECT" for input.
+ Opened track file "D:\TEDS\PROJECTS\TRACKS\SLOPE.TRACK" for input.
+ Opened train file "D:\TEDS\PROJECTS\TRAINS\1LOC10EMPTY_CB.TRAIN" for input.
+ Opened train handling file "D:\TEDS\PROJECTS\CB_2_FRIDAY\1LOC10EMPTY_CB_40_SLOPE\CB_2_FRIDAY1LOC10EMPTY_CB_40_SLOPE_SPEED_1.COMMAND" for input.
+ Project title is:
+ "1Loc10Empty_cb_40_slope"
+ COMMENT INITIALIZATION FILE VERSION 1.0 DATED 2012/03/05 DRA
+ SWITCH ON AIR_BRAKE
+ SWITCH ON TRAIN_DYNAMICS
+ INTEGRATION_TYPE BRITISH_RAIL
+ AMBIENT PRESSURE 14.7
+ AMBIENT TEMPERATURE 70.0
+ COEFFICIENT_OF_FRICTION RAIL_WHEEL 0.0 PERCENT
+ COEFFICIENT_OF_FRICTION RAIL_WHEEL 0.0 VALUE
+ COEFFICIENT_OF_FRICTION SHOE_WHEEL 0.0 PERCENT
+ COEFFICIENT_OF_FRICTION SHOE_WHEEL 0.0 VALUE
+ FORWARD_DIRECTION INCREASING_FOOTAGE FIRST_RECORD
+ REVERSER FORWARD
+ IDLE
+ MAIN_RESERVOIR PRESSURE 135. PSI
+ BRAKE_PIPE_CONTROLLER CREATE 1
+ ECP_TRAINLINE CREATE 1 LAST_VEHICLE
+ BRAKE PIPE_PRESSURE 90.
+ INDEPENDENT CONTROL_PRESSURE 45.
+ BRAKE PILOT_VALVE FREIGHT
+ BRAKE FULL_SERVICE_SETTING 26.0
+ BRAKE MINIMUM_SETTING 6.0
+ LEAKAGE 25 SCFM 90 PSI
+ COMMENT OUTPUT FORCE INSTANTANEOUS
+ COMMENT OUTPUT ACCELERATION INSTANTANEOUS
+ OUTPUT FORCE MAXIMUM
+ OUTPUT ACCELERATION MAXIMUM
+ DISPLAY BRAKE_SUMMARY OFF
+ MISMATCHED COUPLING_ELEMENT OFF
+ COMMENT  THE FOLLOWING ARE NOW HANDLED BY THE PRE-PROCESSOR OUTPUT DEFINITIONS
+ COMMENT INTERVAL_OF_OUTPUT 1.0 SEC
+ COMMENT OUTPUT FIRST_VEHICLE ON
+ COMMENT OUTPUT LAST_VEHICLE ON
+ COMMENT  THE START_TRAIN COMMAND IS SPECIFIED BY THE PRE-PROCESSOR AND ISSUED FROM THE PROJECT.
+ COMMENT START_TRAIN DEFAULT
+ Project ini file 'D:\TEDS\PROJECTS\CB_2_FRIDAY\1LOC10EMPTY_CB_40_SLOPE\1LOC10EMPTY_CB_40_SLOPE_1.ini' not found.
+ OUTPUT LOCOMOTIVES ON
+ INTERVAL_OF_OUTPUT 4.0 SEC
+ AMBIENT PRESSURE 14.7
+ AMBIENT TEMPERATURE 70.0
+ WET_RAIL OFF
+ COEFFICIENT_OF_FRICTION RAIL_WHEEL 18.7 PERCENT
+ MAIN_RESERVOIR PRESSURE 135.0 PSI
+ BRAKE PIPE_PRESSURE 90.0
+ INDEPENDENT CONTROL_PRESSURE 45.0
+ BRAKE FULL_SERVICE_SETTING 26.1
+ BRAKE MINIMUM_SETTING 6.0
+ COMMENT TRAIN CONDITION STEADY
+ START_TRAIN STRETCH 40 110000
+ 
+ Calculating steady-state pressure distribution throughout train.
+ This may take several seconds....
+ 
+  
+  Consist summary:
+  
+ VEHICLE  TARE_WEIGHT  ACTUAL_WEIGHT  GROSS_RAIL_LOAD   LENGTH   BP_LENGTH    NAME
+       1    412000.0      412000.0        412000.0        73.1        78.1    4400HP_LOCO
+       2     75000.0       75000.0        286000.0        58.4        63.4    BOX_CAR_Q40028
+       3     75000.0       75000.0        286000.0        58.4        63.4    BOX_CAR_Q40028
+       4     75000.0       75000.0        286000.0        58.4        63.4    BOX_CAR_Q40028
+       5     75000.0       75000.0        286000.0        58.4        63.4    BOX_CAR_Q40028
+       6     75000.0       75000.0        286000.0        58.4        63.4    BOX_CAR_Q40028
+       7     75000.0       75000.0        286000.0        58.4        63.4    BOX_CAR_Q40028
+       8     75000.0       75000.0        286000.0        58.4        63.4    BOX_CAR_Q40028
+       9     75000.0       75000.0        286000.0        58.4        63.4    BOX_CAR_Q40028
+      10     75000.0       75000.0        286000.0        58.4        63.4    BOX_CAR_Q40028
+      11     75000.0       75000.0        286000.0        58.4        63.4    BOX_CAR_Q40028
+  
+                              TOTAL TRAIN WEIGHT (TONS)    581.0
+                                TOTAL TRAIN LENGTH (FT)    657.3
+                           TOTAL BRAKE PIPE LENGTH (FT)    712.3
+  
+    TRAIN AVERAGE BRAKING RATIO (EXCLUDING LOCOMOTIVES)      9.5
+  
+ 
+  NET BRAKING RATIOS
+ Reported at 65 psi cylinder pressure,
+ or as reduced by E/L valve for empty car.
+ VEHICLE   EMPTY_RATIO(%)   LOADED_RATIO(%)      ECP_BRAKE_CONSTANT(lbs/psi)     NBR_S4200 NBR_ACHIEVED       FSP             GRL    PROPOR
+ Asterisk after FSP indicates reservoir limiting.
+       1        29.0010         29.0010
+       2        18.1133          9.5000
+       3        18.1133          9.5000
+       4        18.1133          9.5000
+       5        18.1133          9.5000
+       6        18.1133          9.5000
+       7        18.1133          9.5000
+       8        18.1133          9.5000
+       9        18.1133          9.5000
+      10        18.1133          9.5000
+      11        18.1133          9.5000
+  
+ VEHICLE  A_END_SLACK  B_END_SLACK
+       1      0.7500      0.7500
+       2      0.7500      0.7500
+       3      0.7500      0.7500
+       4      0.7500      0.7500
+       5      0.7500      0.7500
+       6      0.7500      0.7500
+       7      0.7500      0.7500
+       8      0.7500      0.7500
+       9      0.7500      0.7500
+      10      0.7500      0.7500
+      11      0.7500      0.7500
+  
+ VEHICLE      A-END                                    B-END
+       1 STANDARD METAL                           STANDARD METAL                          
+       2 STANDARD METAL                           STANDARD METAL                          
+       3 STANDARD METAL                           STANDARD METAL                          
+       4 STANDARD METAL                           STANDARD METAL                          
+       5 STANDARD METAL                           STANDARD METAL                          
+       6 STANDARD METAL                           STANDARD METAL                          
+       7 STANDARD METAL                           STANDARD METAL                          
+       8 STANDARD METAL                           STANDARD METAL                          
+       9 STANDARD METAL                           STANDARD METAL                          
+      10 STANDARD METAL                           STANDARD METAL                          
+      11 STANDARD METAL                           STANDARD METAL                          
+  
+ VEHICLE   Valve_#    VALVE_TYPE_NAME                       VALVE_TYPE_INDEX   RELAY_VALVE_TYPE_NAME             RELAY_VALVE_TYPE_INDEX
+       1      1            26F                                       8            J1.6-16                                 202
+              2            NUM8                                     13                                                      0
+       2      1            ABDX                                      4                                                      0
+              2            NUM8                                     13                                                      0
+       3      1            ABDX                                      4                                                      0
+              2            NUM8                                     13                                                      0
+       4      1            ABDX                                      4                                                      0
+              2            NUM8                                     13                                                      0
+       5      1            ABDX                                      4                                                      0
+              2            NUM8                                     13                                                      0
+       6      1            ABDX                                      4                                                      0
+              2            NUM8                                     13                                                      0
+       7      1            ABDX                                      4                                                      0
+              2            NUM8                                     13                                                      0
+       8      1            ABDX                                      4                                                      0
+              2            NUM8                                     13                                                      0
+       9      1            ABDX                                      4                                                      0
+              2            NUM8                                     13                                                      0
+      10      1            ABDX                                      4                                                      0
+              2            NUM8                                     13                                                      0
+      11      1            ABDX                                      4                                                      0
+              2            NUM8                                     13                                                      0
+  
+-----------------------------------
+ VEHICLE #    CAR_NAME:
+         1    4400HP_LOCO
+  
+   LENGTH  TARE_WEIGHT  ACTUAL_WEIGHT  GROSS_WEIGHT
+     73.1    412000.0      412000.0     412000.0
+  
+   LOADED_BRAKING_RATIO  EMPTY_BRAKING_RATIO  ECP_BRAKE_CONSTANT NBR_S4200 NBR_ACHIEVED    FSP   GRL(at each ECP valve)
+                29.0010              29.0010
+  
+   PLATFORMS:
+     LOCATION:  A
+       PLATFORM NAME:  4400HP_LOCO_PLATFORM
+       DISTANCE TO CAR CENTER:      0.00
+       THROTTLE NAME:  4400HP
+  
+   GEARS:
+       A-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+       B-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+  
+   COUPLERS:
+       A-END COUPLER LENGTH (INCH):     43.000
+       B-END COUPLER LENGTH (INCH):     43.000
+  
+   TRUCKS:
+     LOCATION:  A
+       TRUCK NAME:  LOCO_3_AXLE
+       DISTANCE TO CAR CENTER:     24.79
+     LOCATION:  B
+       TRUCK NAME:  LOCO_3_AXLE
+       DISTANCE TO CAR CENTER:    -24.79
+  
+   VALVES:
+     VALVE TYPE: 26F                                     
+       DIST TO A-END:     30.00       DIST TO B-END:     48.10
+     VALVE TYPE: NUM8                                    
+       DIST TO A-END:     60.00       DIST TO B-END:     18.10
+  
+-----------------------------------
+ VEHICLE #    CAR_NAME:
+         2    BOX_CAR_Q40028
+  
+   LENGTH  TARE_WEIGHT  ACTUAL_WEIGHT  GROSS_WEIGHT
+     58.4     75000.0       75000.0     286000.0
+  
+   LOADED_BRAKING_RATIO  EMPTY_BRAKING_RATIO  ECP_BRAKE_CONSTANT NBR_S4200 NBR_ACHIEVED    FSP   GRL(at each ECP valve)
+                 9.5000              18.1133
+  
+   PLATFORMS:
+     LOCATION:  A
+       PLATFORM NAME:  BOXCAR_PLATFORM
+       DISTANCE TO CAR CENTER:      0.00
+       THROTTLE NAME:  
+  
+   GEARS:
+       A-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+       B-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+  
+   COUPLERS:
+       A-END COUPLER LENGTH (INCH):     26.063
+       B-END COUPLER LENGTH (INCH):     26.063
+  
+   TRUCKS:
+     LOCATION:  A
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:     20.35
+     LOCATION:  B
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:    -20.35
+  
+   VALVES:
+     VALVE TYPE: ABDX                                    
+       DIST TO A-END:     21.14       DIST TO B-END:     42.28
+     VALVE TYPE: NUM8                                    
+       DIST TO A-END:     42.28       DIST TO B-END:     21.14
+  
+-----------------------------------
+ VEHICLE #    CAR_NAME:
+         3    BOX_CAR_Q40028
+  
+   LENGTH  TARE_WEIGHT  ACTUAL_WEIGHT  GROSS_WEIGHT
+     58.4     75000.0       75000.0     286000.0
+  
+   LOADED_BRAKING_RATIO  EMPTY_BRAKING_RATIO  ECP_BRAKE_CONSTANT NBR_S4200 NBR_ACHIEVED    FSP   GRL(at each ECP valve)
+                 9.5000              18.1133
+  
+   PLATFORMS:
+     LOCATION:  A
+       PLATFORM NAME:  BOXCAR_PLATFORM
+       DISTANCE TO CAR CENTER:      0.00
+       THROTTLE NAME:  
+  
+   GEARS:
+       A-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+       B-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+  
+   COUPLERS:
+       A-END COUPLER LENGTH (INCH):     26.063
+       B-END COUPLER LENGTH (INCH):     26.063
+  
+   TRUCKS:
+     LOCATION:  A
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:     20.35
+     LOCATION:  B
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:    -20.35
+  
+   VALVES:
+     VALVE TYPE: ABDX                                    
+       DIST TO A-END:     21.14       DIST TO B-END:     42.28
+     VALVE TYPE: NUM8                                    
+       DIST TO A-END:     42.28       DIST TO B-END:     21.14
+  
+-----------------------------------
+ VEHICLE #    CAR_NAME:
+         4    BOX_CAR_Q40028
+  
+   LENGTH  TARE_WEIGHT  ACTUAL_WEIGHT  GROSS_WEIGHT
+     58.4     75000.0       75000.0     286000.0
+  
+   LOADED_BRAKING_RATIO  EMPTY_BRAKING_RATIO  ECP_BRAKE_CONSTANT NBR_S4200 NBR_ACHIEVED    FSP   GRL(at each ECP valve)
+                 9.5000              18.1133
+  
+   PLATFORMS:
+     LOCATION:  A
+       PLATFORM NAME:  BOXCAR_PLATFORM
+       DISTANCE TO CAR CENTER:      0.00
+       THROTTLE NAME:  
+  
+   GEARS:
+       A-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+       B-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+  
+   COUPLERS:
+       A-END COUPLER LENGTH (INCH):     26.063
+       B-END COUPLER LENGTH (INCH):     26.063
+  
+   TRUCKS:
+     LOCATION:  A
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:     20.35
+     LOCATION:  B
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:    -20.35
+  
+   VALVES:
+     VALVE TYPE: ABDX                                    
+       DIST TO A-END:     21.14       DIST TO B-END:     42.28
+     VALVE TYPE: NUM8                                    
+       DIST TO A-END:     42.28       DIST TO B-END:     21.14
+  
+-----------------------------------
+ VEHICLE #    CAR_NAME:
+         5    BOX_CAR_Q40028
+  
+   LENGTH  TARE_WEIGHT  ACTUAL_WEIGHT  GROSS_WEIGHT
+     58.4     75000.0       75000.0     286000.0
+  
+   LOADED_BRAKING_RATIO  EMPTY_BRAKING_RATIO  ECP_BRAKE_CONSTANT NBR_S4200 NBR_ACHIEVED    FSP   GRL(at each ECP valve)
+                 9.5000              18.1133
+  
+   PLATFORMS:
+     LOCATION:  A
+       PLATFORM NAME:  BOXCAR_PLATFORM
+       DISTANCE TO CAR CENTER:      0.00
+       THROTTLE NAME:  
+  
+   GEARS:
+       A-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+       B-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+  
+   COUPLERS:
+       A-END COUPLER LENGTH (INCH):     26.063
+       B-END COUPLER LENGTH (INCH):     26.063
+  
+   TRUCKS:
+     LOCATION:  A
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:     20.35
+     LOCATION:  B
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:    -20.35
+  
+   VALVES:
+     VALVE TYPE: ABDX                                    
+       DIST TO A-END:     21.14       DIST TO B-END:     42.28
+     VALVE TYPE: NUM8                                    
+       DIST TO A-END:     42.28       DIST TO B-END:     21.14
+  
+-----------------------------------
+ VEHICLE #    CAR_NAME:
+         6    BOX_CAR_Q40028
+  
+   LENGTH  TARE_WEIGHT  ACTUAL_WEIGHT  GROSS_WEIGHT
+     58.4     75000.0       75000.0     286000.0
+  
+   LOADED_BRAKING_RATIO  EMPTY_BRAKING_RATIO  ECP_BRAKE_CONSTANT NBR_S4200 NBR_ACHIEVED    FSP   GRL(at each ECP valve)
+                 9.5000              18.1133
+  
+   PLATFORMS:
+     LOCATION:  A
+       PLATFORM NAME:  BOXCAR_PLATFORM
+       DISTANCE TO CAR CENTER:      0.00
+       THROTTLE NAME:  
+  
+   GEARS:
+       A-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+       B-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+  
+   COUPLERS:
+       A-END COUPLER LENGTH (INCH):     26.063
+       B-END COUPLER LENGTH (INCH):     26.063
+  
+   TRUCKS:
+     LOCATION:  A
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:     20.35
+     LOCATION:  B
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:    -20.35
+  
+   VALVES:
+     VALVE TYPE: ABDX                                    
+       DIST TO A-END:     21.14       DIST TO B-END:     42.28
+     VALVE TYPE: NUM8                                    
+       DIST TO A-END:     42.28       DIST TO B-END:     21.14
+  
+-----------------------------------
+ VEHICLE #    CAR_NAME:
+         7    BOX_CAR_Q40028
+  
+   LENGTH  TARE_WEIGHT  ACTUAL_WEIGHT  GROSS_WEIGHT
+     58.4     75000.0       75000.0     286000.0
+  
+   LOADED_BRAKING_RATIO  EMPTY_BRAKING_RATIO  ECP_BRAKE_CONSTANT NBR_S4200 NBR_ACHIEVED    FSP   GRL(at each ECP valve)
+                 9.5000              18.1133
+  
+   PLATFORMS:
+     LOCATION:  A
+       PLATFORM NAME:  BOXCAR_PLATFORM
+       DISTANCE TO CAR CENTER:      0.00
+       THROTTLE NAME:  
+  
+   GEARS:
+       A-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+       B-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+  
+   COUPLERS:
+       A-END COUPLER LENGTH (INCH):     26.063
+       B-END COUPLER LENGTH (INCH):     26.063
+  
+   TRUCKS:
+     LOCATION:  A
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:     20.35
+     LOCATION:  B
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:    -20.35
+  
+   VALVES:
+     VALVE TYPE: ABDX                                    
+       DIST TO A-END:     21.14       DIST TO B-END:     42.28
+     VALVE TYPE: NUM8                                    
+       DIST TO A-END:     42.28       DIST TO B-END:     21.14
+  
+-----------------------------------
+ VEHICLE #    CAR_NAME:
+         8    BOX_CAR_Q40028
+  
+   LENGTH  TARE_WEIGHT  ACTUAL_WEIGHT  GROSS_WEIGHT
+     58.4     75000.0       75000.0     286000.0
+  
+   LOADED_BRAKING_RATIO  EMPTY_BRAKING_RATIO  ECP_BRAKE_CONSTANT NBR_S4200 NBR_ACHIEVED    FSP   GRL(at each ECP valve)
+                 9.5000              18.1133
+  
+   PLATFORMS:
+     LOCATION:  A
+       PLATFORM NAME:  BOXCAR_PLATFORM
+       DISTANCE TO CAR CENTER:      0.00
+       THROTTLE NAME:  
+  
+   GEARS:
+       A-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+       B-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+  
+   COUPLERS:
+       A-END COUPLER LENGTH (INCH):     26.063
+       B-END COUPLER LENGTH (INCH):     26.063
+  
+   TRUCKS:
+     LOCATION:  A
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:     20.35
+     LOCATION:  B
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:    -20.35
+  
+   VALVES:
+     VALVE TYPE: ABDX                                    
+       DIST TO A-END:     21.14       DIST TO B-END:     42.28
+     VALVE TYPE: NUM8                                    
+       DIST TO A-END:     42.28       DIST TO B-END:     21.14
+  
+-----------------------------------
+ VEHICLE #    CAR_NAME:
+         9    BOX_CAR_Q40028
+  
+   LENGTH  TARE_WEIGHT  ACTUAL_WEIGHT  GROSS_WEIGHT
+     58.4     75000.0       75000.0     286000.0
+  
+   LOADED_BRAKING_RATIO  EMPTY_BRAKING_RATIO  ECP_BRAKE_CONSTANT NBR_S4200 NBR_ACHIEVED    FSP   GRL(at each ECP valve)
+                 9.5000              18.1133
+  
+   PLATFORMS:
+     LOCATION:  A
+       PLATFORM NAME:  BOXCAR_PLATFORM
+       DISTANCE TO CAR CENTER:      0.00
+       THROTTLE NAME:  
+  
+   GEARS:
+       A-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+       B-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+  
+   COUPLERS:
+       A-END COUPLER LENGTH (INCH):     26.063
+       B-END COUPLER LENGTH (INCH):     26.063
+  
+   TRUCKS:
+     LOCATION:  A
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:     20.35
+     LOCATION:  B
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:    -20.35
+  
+   VALVES:
+     VALVE TYPE: ABDX                                    
+       DIST TO A-END:     21.14       DIST TO B-END:     42.28
+     VALVE TYPE: NUM8                                    
+       DIST TO A-END:     42.28       DIST TO B-END:     21.14
+  
+-----------------------------------
+ VEHICLE #    CAR_NAME:
+        10    BOX_CAR_Q40028
+  
+   LENGTH  TARE_WEIGHT  ACTUAL_WEIGHT  GROSS_WEIGHT
+     58.4     75000.0       75000.0     286000.0
+  
+   LOADED_BRAKING_RATIO  EMPTY_BRAKING_RATIO  ECP_BRAKE_CONSTANT NBR_S4200 NBR_ACHIEVED    FSP   GRL(at each ECP valve)
+                 9.5000              18.1133
+  
+   PLATFORMS:
+     LOCATION:  A
+       PLATFORM NAME:  BOXCAR_PLATFORM
+       DISTANCE TO CAR CENTER:      0.00
+       THROTTLE NAME:  
+  
+   GEARS:
+       A-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+       B-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+  
+   COUPLERS:
+       A-END COUPLER LENGTH (INCH):     26.063
+       B-END COUPLER LENGTH (INCH):     26.063
+  
+   TRUCKS:
+     LOCATION:  A
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:     20.35
+     LOCATION:  B
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:    -20.35
+  
+   VALVES:
+     VALVE TYPE: ABDX                                    
+       DIST TO A-END:     21.14       DIST TO B-END:     42.28
+     VALVE TYPE: NUM8                                    
+       DIST TO A-END:     42.28       DIST TO B-END:     21.14
+  
+-----------------------------------
+ VEHICLE #    CAR_NAME:
+        11    BOX_CAR_Q40028
+  
+   LENGTH  TARE_WEIGHT  ACTUAL_WEIGHT  GROSS_WEIGHT
+     58.4     75000.0       75000.0     286000.0
+  
+   LOADED_BRAKING_RATIO  EMPTY_BRAKING_RATIO  ECP_BRAKE_CONSTANT NBR_S4200 NBR_ACHIEVED    FSP   GRL(at each ECP valve)
+                 9.5000              18.1133
+  
+   PLATFORMS:
+     LOCATION:  A
+       PLATFORM NAME:  BOXCAR_PLATFORM
+       DISTANCE TO CAR CENTER:      0.00
+       THROTTLE NAME:  
+  
+   GEARS:
+       A-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+       B-END GEAR TYPE AND NAME: "F" "STANDARD METAL"
+  
+   COUPLERS:
+       A-END COUPLER LENGTH (INCH):     26.063
+       B-END COUPLER LENGTH (INCH):     26.063
+  
+   TRUCKS:
+     LOCATION:  A
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:     20.35
+     LOCATION:  B
+       TRUCK NAME:  100_TON
+       DISTANCE TO CAR CENTER:    -20.35
+  
+   VALVES:
+     VALVE TYPE: ABDX                                    
+       DIST TO A-END:     21.14       DIST TO B-END:     42.28
+     VALVE TYPE: NUM8                                    
+       DIST TO A-END:     42.28       DIST TO B-END:     21.14
+ DISPLAY BRAKE_SUMMARY ON
+ BRAKE REDUCTION 26.1
+ BAILOFF
+ SIMULATE 0 MPH 2000 SEC
+ Train stopped in 304.128 seconds.
+ Distance traveled was 11796 feet.
+ Speed criterion of simulate to 0. MPH
+ satisfied at time 304.138.
+ STOP_BAILOFF
+ BRAKE RELEASE
+ EXIT
+ CPU time is: 6.48964
